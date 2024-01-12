@@ -8,7 +8,7 @@ import { IProductos } from '../Interface/iproductos';
 })
 export class ProductosService {
   private urlBase: string =
-    'http://localhost/Sexto_PHP_ANGULAR/Inventario/Controllers/Producto.Controller.php?op=';
+    'http://localhost:8888/Sexto_PHP_ANGULAR/Inventario/Controllers/Producto.Controller.php?op=';
   constructor(private cliente: HttpClient) {}
 
   todos(): Observable<IProductos[]> {
